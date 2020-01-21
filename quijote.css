@@ -1,6 +1,33 @@
-@media screen and(min-width: 480px){
+body{
+    font-family: sans-serif;
+}
+@media screen and (min-width: 1024px){
     body{
-        background-color: #80BF40;
-        color: #262673;
+        margin-left: 30%;
+        margin-right: 30%;
+        background-color: #CCB3E6;
+        color: #971414;
     }
 }
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+    body {
+      margin-left: 150px;
+      margin-right: 150px;
+      background-color: #40BFBF;
+      color: #660000;
+    }
+  }
+  @media screen and (min-width: 480px) and (max-width: 720px) {
+    body {
+      margin-left: 50px;
+      margin-right: 50px;
+      background-color: #80BF40;
+      color: #262673;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    body {
+      background-color: #BF4040;
+      color: #EAFF00;
+    }
+  }
